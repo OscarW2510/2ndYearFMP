@@ -8739,7 +8739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3.5
-  knockTime: 0.4
+  knockTime: 0.2
   damage: 1
 --- !u!1 &785899660
 GameObject:
@@ -9472,7 +9472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3.5
-  knockTime: 0.4
+  knockTime: 0.2
   damage: 1
 --- !u!1 &1038801438
 GameObject:
@@ -17026,7 +17026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3.5
-  knockTime: 0.4
+  knockTime: 0.2
   damage: 1
 --- !u!1 &1087922826
 GameObject:
@@ -17245,7 +17245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3.5
-  knockTime: 0.4
+  knockTime: 0.2
   damage: 1
 --- !u!1 &1309166927
 GameObject:
