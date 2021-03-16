@@ -13,6 +13,7 @@ public class RoomMove : MonoBehaviour
     public GameObject text;
     public Text placeText;
     public float textDisplayLength;
+    public Vector2Value cameraStorage;
 
 
 
@@ -34,6 +35,11 @@ public class RoomMove : MonoBehaviour
         {
             cam.minPosition += cameraChange;
             cam.maxPosition += cameraChange;
+            if (cameraStorage != null)
+            {
+                cameraStorage.minValue = cam.minPosition;
+                cameraStorage.maxValue = cam.maxPosition;
+            }
             other.transform.position += playerChange;
             if (needText)
             {

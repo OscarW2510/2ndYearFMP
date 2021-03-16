@@ -8,12 +8,15 @@ public class CameraMovement : MonoBehaviour
     public float smoothing;
     public Vector2 maxPosition;
     public Vector2 minPosition;
+    public Vector2Value cameraPosition;
 
 
     // Start is called before the first frame update
     void Start()
     {
         transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
+        maxPosition = cameraPosition.maxValue;
+        minPosition = cameraPosition.minValue;
     }
 
     // Update is called once per frame

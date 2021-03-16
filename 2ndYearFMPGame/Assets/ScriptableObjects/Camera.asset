@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54c4924a2dd0ca248951c25dae47e29a, type: 3}
-  m_Name: PlayerPosition
+  m_Script: {fileID: 11500000, guid: d014dd1e609f17f4c891fa641c74b5a6, type: 3}
+  m_Name: Camera
   m_EditorClassIdentifier: 
-  initialValue: {x: -14.4, y: 7.5}
+  minValue: {x: -12, y: -4}
+  maxValue: {x: 0.020000458, y: 11}
