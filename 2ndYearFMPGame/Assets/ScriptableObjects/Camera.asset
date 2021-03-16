@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Camera
   m_EditorClassIdentifier: 
   minValue: {x: -12, y: -4}
-  maxValue: {x: 0.020000458, y: 11}
+  maxValue: {x: 0.02, y: 11}
