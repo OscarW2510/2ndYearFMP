@@ -49,3 +49,9 @@ TagManager:
   - name: Player
     uniqueID: 1004160523
     locked: 0
+  - name: Context Clue
+    uniqueID: 2086883149
+    locked: 0
+  - name: Chest
+    uniqueID: 3426892499
+    locked: 0
