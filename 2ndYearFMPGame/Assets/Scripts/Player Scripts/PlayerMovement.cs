@@ -17,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
     public FloatValue currentHealth;
     public Signal playerHealthSignal;
     public VectorValue startingPosition;
+    public Inventory playerInventory;
+    public SpriteRenderer gotItemSprite;
 
 
     
@@ -33,10 +35,15 @@ public class PlayerMovement : MonoBehaviour
     
     void Update()
     {
-        if(Input.GetButtonDown("attack") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
+        if (currentState == PlayerState.interact)
+        {
+            return;
+        }
+
+        if (Input.GetButtonDown("attack") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
-        }         
+        }
     }
 
     void FixedUpdate()
@@ -48,6 +55,10 @@ public class PlayerMovement : MonoBehaviour
         {
             UpdateAnimationAndMove();
         }
+        if (currentState == PlayerState.interact)
+        {
+            return;
+        }
     }
 
     private IEnumerator AttackCo()
@@ -57,7 +68,30 @@ public class PlayerMovement : MonoBehaviour
         yield return null;
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
-        currentState = PlayerState.walk;
+
+        if (currentState != PlayerState.interact)
+        {
+            currentState = PlayerState.walk;
+        }
+    }
+
+    public void RaiseItem()
+    {
+        if(playerInventory.currentItem != null)
+        {
+            if (currentState != PlayerState.interact)
+            {
+                animator.SetBool("got item", true);
+                currentState = PlayerState.interact;
+                gotItemSprite.sprite = playerInventory.currentItem.itemSprite;
+            }
+            else
+            {
+                animator.SetBool("got item", false);
+                currentState = PlayerState.idle;
+                gotItemSprite.sprite = null;
+            }
+        }
     }
 
     void UpdateAnimationAndMove()
@@ -73,6 +107,7 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("moving", false);
         }
+
     }
 
     void MoveCharacter()

@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class Sign : Interactable
 {
-
     public GameObject dialogBox;
     public Text dialogText;
     public string dialog;
@@ -32,11 +31,12 @@ public class Sign : Interactable
             }
         }     
     }
+
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
-            contextOff.Raise();
+            context.Raise();
             playerInRange = false;
             dialogBox.SetActive(false);
         }

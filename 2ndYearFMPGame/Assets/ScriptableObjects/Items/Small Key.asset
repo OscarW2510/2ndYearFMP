@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5086655474e618b429f5cb4da9ad75eb, type: 3}
-  m_Name: PlayerHealth
+  m_Script: {fileID: 11500000, guid: 8d383a47cb03ed54bbcae996893f4280, type: 3}
+  m_Name: Small Key
   m_EditorClassIdentifier: 
-  initialValue: 6
-  RuntimeValue: 0
+  itemSprite: {fileID: 21300000, guid: 3f44923501b23694ea934bf8eae09360, type: 3}
+  itemDescription: Maybe there is a door nearby
+  isKey: 0
