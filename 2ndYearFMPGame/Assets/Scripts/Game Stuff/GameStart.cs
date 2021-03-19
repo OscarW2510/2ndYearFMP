@@ -11,9 +11,12 @@ public class GameStart : MonoBehaviour
     public VectorValue playerStorage;
     public Vector2Value cameraStorage;
 
+    public VectorValue playerSave;
+    public Vector2Value cameraSave;
+
     public void Awake()
     {
-        if(instance != null)
+        if (instance != null)
         {
             Destroy(gameObject);
             return;
@@ -24,5 +27,16 @@ public class GameStart : MonoBehaviour
         playerStorage.initialValue = initialPlayerPosition;
         cameraStorage.minValue = initialCameraMin;
         cameraStorage.maxValue = initialCameraMax;
+
+        playerSave.initialValue = initialPlayerPosition;
+        cameraSave.minValue = initialCameraMin;
+        cameraSave.maxValue = initialCameraMax;
+    }
+
+    public static void Died()
+    {
+        instance.playerStorage.initialValue = instance.playerSave.initialValue;
+        instance.cameraStorage.maxValue = instance.cameraSave.maxValue;
+        instance.cameraStorage.minValue = instance.cameraSave.minValue;
     }
 }

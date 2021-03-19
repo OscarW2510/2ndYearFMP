@@ -128,6 +128,9 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            GameStart.Died();
+            currentHealth.RuntimeValue = currentHealth.initialValue;
+            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
             this.gameObject.SetActive(false);
         }
     }
