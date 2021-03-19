@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Small Key
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 21300000, guid: 3f44923501b23694ea934bf8eae09360, type: 3}
-  itemDescription: Maybe there is a door nearby
+  itemDescription: A key . . .  Could there be a door nearby?
   isKey: 0
