@@ -11,8 +11,8 @@ public class Chest : Interactable
     public Signal raiseItem;
     public GameObject dialogBox;
     public Text dialogText;
+    public string dialog;
     private Animator anim;
-
 
     // Start is called before the first frame update
     void Start()
@@ -40,7 +40,7 @@ public class Chest : Interactable
     {
         dialogBox.SetActive(true);
 
-        dialogText.text = contents.itemDescription;
+        dialogText.text = dialog;
 
         playerInventory.AddItem(contents);
         playerInventory.currentItem = contents;
