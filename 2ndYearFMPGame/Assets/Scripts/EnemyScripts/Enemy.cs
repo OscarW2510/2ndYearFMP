@@ -17,6 +17,8 @@ public class Enemy : MonoBehaviour
     public int baseAttack;
     public float moveSpeed;
     public GameObject deathEffect;
+    public bool drop;
+    public GameObject theDrop;
 
     private void Awake()
     {
@@ -30,6 +32,7 @@ public class Enemy : MonoBehaviour
         {
             DeathEffect();
             this.gameObject.SetActive(false);
+            if (drop) Instantiate(theDrop, transform.position, transform.rotation);
         }
     }
 
