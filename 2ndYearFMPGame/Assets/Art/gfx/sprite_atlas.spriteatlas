@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: f164d1e0d4c5f4e479e6ff3acab9ff31, type: 3}
-    totalSpriteSurfaceArea: 555344
+    totalSpriteSurfaceArea: 602448
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -51,6 +51,29 @@ SpriteAtlas:
   - {fileID: 4328626103302227732, guid: 537b5e6044e883249bbb739d2565978f, type: 3}
   - {fileID: 4268471932424394617, guid: 537b5e6044e883249bbb739d2565978f, type: 3}
   - {fileID: -3438796335496917445, guid: 537b5e6044e883249bbb739d2565978f, type: 3}
+  - {fileID: 8863888586923161034, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: 3570557409133764778, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: -4251923525720398758, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: 4065463651537345137, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: -7198761685981717303, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: -1128925002494047498, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: -6187876222219115478, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: 7954475280964195982, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: -4604233836850197650, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: -252175420909830012, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: 8213687377797518510, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: 1553765801453956302, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: 8869912143800313699, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: -6781523210511197149, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: 6954956922697336830, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: 6365608657272365819, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: -204576950225633631, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: 6653302756279335654, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: -1158365917309770926, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: 7564893242051125772, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: 5435083681325717298, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: 2288004775930230726, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
+  - {fileID: -1647436279522193755, guid: 3e0095c454ecaa94cb317637ae236a66, type: 3}
   - {fileID: -790699523677361007, guid: 916f9c25553ffcc46ae815398bdec9d8, type: 3}
   - {fileID: 8470420716495695676, guid: 916f9c25553ffcc46ae815398bdec9d8, type: 3}
   - {fileID: 6167071470516247665, guid: 916f9c25553ffcc46ae815398bdec9d8, type: 3}
@@ -752,6 +775,29 @@ SpriteAtlas:
   - {fileID: -1401874176895988017, guid: 3897954b98e91ba4ca0ae72cdf0816a4, type: 3}
   - {fileID: 3155708254655358991, guid: 3897954b98e91ba4ca0ae72cdf0816a4, type: 3}
   - {fileID: -6630971469653654122, guid: 3897954b98e91ba4ca0ae72cdf0816a4, type: 3}
+  - {fileID: -3536407659779993718, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: 3361334517146207801, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: -1563571900101315723, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: 7043234815133470083, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: 6282710998213328629, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: 4566982213304443485, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: 407505755855125769, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: -1032467425539274274, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: -9091282031900135261, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: 5604161196621703257, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: -171654135486350702, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: -3110655852517273008, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: 2677572641667554089, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: 2434420735912184578, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: -7196178624283260376, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: 8962956912353483873, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: -1191033265658777910, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: -2512441372624841355, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: 8085253075275207939, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: -3611422779438375114, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: -2836360972674083941, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: -4356709045087737814, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
+  - {fileID: -9210109313195968500, guid: 14ac5f5bdf7abf740bfdc294001a00c2, type: 3}
   - {fileID: 21300000, guid: 12c0b16d885b26b46a4d00f63632bd2d, type: 3}
   - {fileID: 21300000, guid: 33fe104eb39efc94abe999811293f966, type: 3}
   - {fileID: 136123638574666257, guid: ee7b032fe7f8b634c9ada1d225f48fbe, type: 3}
@@ -1832,6 +1878,29 @@ SpriteAtlas:
   - campfire_16x16_3
   - campfire_16x16_0
   - campfire_16x16_1
+  - log beach skin_4
+  - log beach skin_5
+  - log beach skin_6
+  - log beach skin_7
+  - log beach skin_0
+  - log beach skin_1
+  - log beach skin_2
+  - log beach skin_22
+  - log beach skin_3
+  - log beach skin_20
+  - log beach skin_21
+  - log beach skin_8
+  - log beach skin_9
+  - log beach skin_19
+  - log beach skin_18
+  - log beach skin_17
+  - log beach skin_16
+  - log beach skin_15
+  - log beach skin_14
+  - log beach skin_13
+  - log beach skin_12
+  - log beach skin_11
+  - log beach skin_10
   - character_14
   - character_15
   - character_16
@@ -2533,6 +2602,29 @@ SpriteAtlas:
   - font_0
   - font_3
   - font_2
+  - log forest skin_0
+  - log forest skin_1
+  - log forest skin_2
+  - log forest skin_3
+  - log forest skin_4
+  - log forest skin_5
+  - log forest skin_6
+  - log forest skin_7
+  - log forest skin_8
+  - log forest skin_9
+  - log forest skin_13
+  - log forest skin_12
+  - log forest skin_11
+  - log forest skin_10
+  - log forest skin_17
+  - log forest skin_16
+  - log forest skin_15
+  - log forest skin_14
+  - log forest skin_22
+  - log forest skin_20
+  - log forest skin_19
+  - log forest skin_21
+  - log forest skin_18
   - key
   - NPC_test
   - Overworld_827
