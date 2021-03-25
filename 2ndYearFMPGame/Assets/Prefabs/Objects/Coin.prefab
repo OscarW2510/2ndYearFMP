@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7358610979053243051}
   - component: {fileID: 7358610979053243050}
   - component: {fileID: 6331841599494599817}
+  - component: {fileID: 2469833307435677686}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -6998631668141411158, guid: 8918687571b0aaf43a8fd554482b3aef,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -113,9 +114,23 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0315578, y: 0.01380682}
   serializedVersion: 2
   m_Radius: 0.41124177
+--- !u!114 &2469833307435677686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7358610979053243049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a2f0fb11cec26a49a849e8a17550fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerupSignal: {fileID: 11400000, guid: c323c3a0e4d347a4caff20e8386ed724, type: 2}
+  playerInventory: {fileID: 11400000, guid: 28350107519c88c4a8b25f3e97674278, type: 2}
