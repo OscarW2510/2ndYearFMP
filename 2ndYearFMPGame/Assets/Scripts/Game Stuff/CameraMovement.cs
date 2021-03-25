@@ -9,11 +9,12 @@ public class CameraMovement : MonoBehaviour
     public Vector2 maxPosition;
     public Vector2 minPosition;
     public Vector2Value cameraPosition;
-
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
         maxPosition = cameraPosition.maxValue;
         minPosition = cameraPosition.minValue;
@@ -34,4 +35,17 @@ public class CameraMovement : MonoBehaviour
 
         }
     }
+
+    public void BeginKick()
+    {
+        anim.SetBool("kickactive", true);
+        StartCoroutine(KickCo());
+    }
+
+    public IEnumerator KickCo()
+    {
+        yield return null;
+        anim.SetBool("kickactive", false);
+    }
+
 }
