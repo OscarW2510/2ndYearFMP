@@ -965,7 +965,7 @@ Transform:
   - {fileID: 1089729629}
   - {fileID: 501626698}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &391027465
 PrefabInstance:
@@ -9167,7 +9167,7 @@ PrefabInstance:
     - target: {fileID: 7358610979053243060, guid: a24fca967ff53d14badcc73ac18ae3c9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7358610979053243060, guid: a24fca967ff53d14badcc73ac18ae3c9,
         type: 3}
@@ -55554,6 +55554,27 @@ Transform:
   m_Father: {fileID: 1513348758}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1573527393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8012871942275992660, guid: 4ba43b67e723f6448a81dde4e7edc2fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 8012871941934332236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1573527394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573527393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1635897202
 GameObject:
   m_ObjectHideFlags: 0
@@ -55806,6 +55827,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Patrol Log (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141927556430665120, guid: dff1c18069bad1b40b7b451e4ed3b6ea,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -73176,6 +73202,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5424245377218819255, guid: e4b952c6bbfbe0c4a920384909ca4027,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5424245377218819256, guid: e4b952c6bbfbe0c4a920384909ca4027,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -73415,6 +73446,12 @@ PrefabInstance:
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: 59a87156060c38543915cde687a8c90a,
+        type: 3}
+    - target: {fileID: 8012871942275992663, guid: 4ba43b67e723f6448a81dde4e7edc2fb,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6653155710520223759, guid: 08b0daf35655170438a9d47807bc639c,
         type: 3}
     - target: {fileID: 8012871942468692704, guid: 4ba43b67e723f6448a81dde4e7edc2fb,
         type: 3}
