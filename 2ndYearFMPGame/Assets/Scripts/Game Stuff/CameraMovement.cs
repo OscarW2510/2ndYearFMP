@@ -9,6 +9,7 @@ public class CameraMovement : MonoBehaviour
     public Vector2 maxPosition;
     public Vector2 minPosition;
     public Vector2Value cameraPosition;
+    public Vector2Value kickScreen;
     public Animator anim;
 
     // Start is called before the first frame update
