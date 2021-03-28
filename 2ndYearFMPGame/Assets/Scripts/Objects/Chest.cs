@@ -8,6 +8,7 @@ public class Chest : Interactable
     public Item contents;
     public Inventory playerInventory;
     public bool isOpen;
+    public BoolValue storedOpen;
     public Signal raiseItem;
     public GameObject dialogBox;
     public Text dialogText;
@@ -18,6 +19,11 @@ public class Chest : Interactable
     void Start()
     {
         anim = GetComponent<Animator>();
+        isOpen = storedOpen.RuntimeValue;
+        if (isOpen)
+        {
+            anim.SetBool("opened", true);
+        }
     }
 
     // Update is called once per frame
@@ -51,6 +57,8 @@ public class Chest : Interactable
 
         isOpen = true;
         anim.SetBool("opened", true);
+
+        storedOpen.RuntimeValue = isOpen;     
     }
 
     public void ChestAlreadyOpen()
