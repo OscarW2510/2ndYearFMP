@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: f164d1e0d4c5f4e479e6ff3acab9ff31, type: 3}
-    totalSpriteSurfaceArea: 993168
+    totalSpriteSurfaceArea: 1016720
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -462,6 +462,29 @@ SpriteAtlas:
   - {fileID: 538826285080647454, guid: 8918687571b0aaf43a8fd554482b3aef, type: 3}
   - {fileID: 1107736971085435061, guid: 8918687571b0aaf43a8fd554482b3aef, type: 3}
   - {fileID: -377563455374678323, guid: 8918687571b0aaf43a8fd554482b3aef, type: 3}
+  - {fileID: 3572784731854102035, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: -4190544384811680525, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: 1580837517629168742, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: -4333312618143095349, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: -8775714207268966664, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: -6327706160691889000, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: 1218464019147694485, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: 4315636447267410003, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: 8354749107689090777, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: -3575685908581415567, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: 4838171281950265897, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: 27559391283489348, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: 2724879784778922212, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: 6807536567509170020, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: 1119723517800447365, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: 3085723220429099623, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: -3422335971725498578, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: -8976628745099959883, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: -2559465988730045695, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: 8005235924495107602, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: -4329948538905804478, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: 5151204238504387356, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
+  - {fileID: -4285438761681703725, guid: f285bd75aeec55b409ea6e7329ce0746, type: 3}
   - {fileID: -872947984015748712, guid: 97bb3bc537eb7954b90e9f185b2e116e, type: 3}
   - {fileID: 4004008643541842471, guid: 97bb3bc537eb7954b90e9f185b2e116e, type: 3}
   - {fileID: 6703265110210787806, guid: 97bb3bc537eb7954b90e9f185b2e116e, type: 3}
@@ -2859,6 +2882,29 @@ SpriteAtlas:
   - objects_119
   - objects_109
   - objects_108
+  - Cave Boss Design_20
+  - Cave Boss Design_21
+  - Cave Boss Design_22
+  - Cave Boss Design_2
+  - Cave Boss Design_3
+  - Cave Boss Design_0
+  - Cave Boss Design_1
+  - Cave Boss Design_6
+  - Cave Boss Design_7
+  - Cave Boss Design_4
+  - Cave Boss Design_5
+  - Cave Boss Design_8
+  - Cave Boss Design_9
+  - Cave Boss Design_19
+  - Cave Boss Design_18
+  - Cave Boss Design_11
+  - Cave Boss Design_10
+  - Cave Boss Design_13
+  - Cave Boss Design_12
+  - Cave Boss Design_15
+  - Cave Boss Design_14
+  - Cave Boss Design_17
+  - Cave Boss Design_16
   - modified gfx melee sprites_15
   - modified gfx melee sprites_14
   - modified gfx melee sprites_13
