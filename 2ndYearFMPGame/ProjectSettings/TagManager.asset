@@ -15,8 +15,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Enemy
+  - Enemy Projectile
   - 
   - 
   - 
@@ -54,4 +54,7 @@ TagManager:
     locked: 0
   - name: Key
     uniqueID: 2720526077
+    locked: 0
+  - name: Enemy Projectile
+    uniqueID: 2220071685
     locked: 0
