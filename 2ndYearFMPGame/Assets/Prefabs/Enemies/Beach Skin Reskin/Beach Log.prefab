@@ -200,8 +200,7 @@ MonoBehaviour:
   moveSpeed: 2
   deathEffect: {fileID: 2552168616611190401, guid: 00ced0cd02b604048ba2ee69998ede87,
     type: 3}
-  drop: 1
-  theDrop: {fileID: 5825753626840524877, guid: 7dd71977566c2bc4f80d87dc7f415347, type: 3}
+  thisLoot: {fileID: 11400000, guid: aa23df9d4896fec4390b0938ee9ceb5c, type: 2}
   myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 4

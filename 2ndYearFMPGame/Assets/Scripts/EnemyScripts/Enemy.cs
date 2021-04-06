@@ -18,22 +18,35 @@ public class Enemy : MonoBehaviour
     public float moveSpeed;
     public GameObject deathEffect;
     private float deathEffectDelay = 1f;
-    public bool drop;
-    public GameObject theDrop;
+    public LootTable thisLoot;
+    //public bool drop;
+    //public GameObject theDrop;
 
     private void Awake()
     {
         health = maxHealth.initialValue;
     }
-
     private void TakeDamage(float damage)
     {
         health -= damage;
         if(health <= 0)
         {
             DeathEffect();
+            MakeLoot();
             this.gameObject.SetActive(false);
-            if (drop) Instantiate(theDrop, transform.position, transform.rotation);
+            //if (drop) Instantiate(theDrop, transform.position, transform.rotation);
+        }
+    }
+
+    private void MakeLoot()
+    {
+        if(thisLoot != null)
+        {
+            PowerUp current = thisLoot.LootPowerUp();
+            if(current != null)
+            {
+                Instantiate(current.gameObject, transform.position, Quaternion.identity);
+            }
         }
     }
 

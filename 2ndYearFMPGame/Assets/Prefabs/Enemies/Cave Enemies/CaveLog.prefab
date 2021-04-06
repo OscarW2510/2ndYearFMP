@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3143490018621114004}
   - component: {fileID: 3143490018621114005}
   m_Layer: 0
-  m_Name: Test Enemy
+  m_Name: CaveLog
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -200,8 +200,7 @@ MonoBehaviour:
   moveSpeed: 2
   deathEffect: {fileID: 2552168616611190401, guid: 00ced0cd02b604048ba2ee69998ede87,
     type: 3}
-  drop: 1
-  theDrop: {fileID: 5825753626840524877, guid: 7dd71977566c2bc4f80d87dc7f415347, type: 3}
+  thisLoot: {fileID: 11400000, guid: 76c88e86c1de97a4ba32ac305b1a61e6, type: 2}
   myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 4

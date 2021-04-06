@@ -16,4 +16,4 @@ MonoBehaviour:
   items:
   - {fileID: 11400000, guid: 56e37a1807c84b847b4f476138381a16, type: 2}
   numberOfKeys: 17
-  coins: 9
+  coins: 2

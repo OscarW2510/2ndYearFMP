@@ -6,6 +6,7 @@ public class Pot : MonoBehaviour
 {
 
     private Animator anim;
+    public LootTable thisLoot;
 
 
     // Start is called before the first frame update
@@ -13,11 +14,16 @@ public class Pot : MonoBehaviour
     {
         anim = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
-    void Update()
+    private void MakeLoot()
     {
-        
+        if (thisLoot != null)
+        {
+            PowerUp current = thisLoot.LootPowerUp();
+            if (current != null)
+            {
+                Instantiate(current.gameObject, transform.position, Quaternion.identity);
+            }
+        }
     }
 
     public void Smash()
@@ -29,6 +35,7 @@ public class Pot : MonoBehaviour
     IEnumerator breakCo()
     {
         yield return new WaitForSeconds(.3f);
+        MakeLoot();
         this.gameObject.SetActive(false);
 
     }
