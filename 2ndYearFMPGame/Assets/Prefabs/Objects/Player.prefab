@@ -321,7 +321,8 @@ MonoBehaviour:
   playerInventory: {fileID: 11400000, guid: 28350107519c88c4a8b25f3e97674278, type: 2}
   gotItemSprite: {fileID: 3241628251691223703}
   playerHit: {fileID: 11400000, guid: 109a4bd7dc435cf43abc0480769b5292, type: 2}
-  projectile: {fileID: 0}
+  projectile: {fileID: 6521883859165788984, guid: 0e159a2dee4abb84ea590f33520ec26a,
+    type: 3}
 --- !u!95 &5421242347430867092
 Animator:
   serializedVersion: 3
