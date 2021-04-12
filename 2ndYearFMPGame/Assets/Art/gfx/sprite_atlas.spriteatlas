@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: f164d1e0d4c5f4e479e6ff3acab9ff31, type: 3}
-    totalSpriteSurfaceArea: 1016832
+    totalSpriteSurfaceArea: 1017344
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -501,6 +501,7 @@ SpriteAtlas:
   - {fileID: -8041784067552993899, guid: 97bb3bc537eb7954b90e9f185b2e116e, type: 3}
   - {fileID: 1532286108747742640, guid: 97bb3bc537eb7954b90e9f185b2e116e, type: 3}
   - {fileID: 147799070741053269, guid: 97bb3bc537eb7954b90e9f185b2e116e, type: 3}
+  - {fileID: 21300000, guid: 680010f568c380a4a9c5c0a906f2f4f1, type: 3}
   - {fileID: 21300000, guid: 1dc9ec56232c2c74dba364d9ce07daa8, type: 3}
   - {fileID: -464034680190023423, guid: e8b967c6adffe054ca0eaafc14286490, type: 3}
   - {fileID: -6069640938520168933, guid: e8b967c6adffe054ca0eaafc14286490, type: 3}
@@ -765,6 +766,7 @@ SpriteAtlas:
   - {fileID: 536419509007563539, guid: e8b967c6adffe054ca0eaafc14286490, type: 3}
   - {fileID: 1036803682579554421, guid: e8b967c6adffe054ca0eaafc14286490, type: 3}
   - {fileID: 5559694988392259305, guid: e8b967c6adffe054ca0eaafc14286490, type: 3}
+  - {fileID: 21300000, guid: ce7739788f985d34a9eceebf2ff356da, type: 3}
   - {fileID: 2313419830122661008, guid: 4bc02339bbe53f2419db2193832e9b80, type: 3}
   - {fileID: 6349480184285452005, guid: 4bc02339bbe53f2419db2193832e9b80, type: 3}
   - {fileID: -5951506096933670981, guid: 4bc02339bbe53f2419db2193832e9b80, type: 3}
@@ -2922,6 +2924,7 @@ SpriteAtlas:
   - modified gfx melee sprites_1
   - modified gfx melee sprites_2
   - modified gfx melee sprites_3
+  - arrow
   - Bar
   - Inner_48
   - Inner_49
@@ -3186,6 +3189,7 @@ SpriteAtlas:
   - Inner_38
   - Inner_42
   - Inner_43
+  - bow
   - cave_50
   - cave_51
   - cave_52
