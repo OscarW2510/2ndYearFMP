@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8001585d7d45e2e4a932a3b159756ce6, type: 3}
-  m_Name: Only Coins
+  m_Script: {fileID: 11500000, guid: b12526595edf93c4b9ee62c2104fa134, type: 3}
+  m_Name: Decrease Magic
   m_EditorClassIdentifier: 
-  loots:
-  - thisLoot: {fileID: 2469833307435677686, guid: a24fca967ff53d14badcc73ac18ae3c9,
-      type: 3}
-    lootChance: 60
+  listeners: []

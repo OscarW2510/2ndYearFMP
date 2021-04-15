@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: f164d1e0d4c5f4e479e6ff3acab9ff31, type: 3}
-    totalSpriteSurfaceArea: 1017344
+    totalSpriteSurfaceArea: 1017856
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -766,6 +766,7 @@ SpriteAtlas:
   - {fileID: 536419509007563539, guid: e8b967c6adffe054ca0eaafc14286490, type: 3}
   - {fileID: 1036803682579554421, guid: e8b967c6adffe054ca0eaafc14286490, type: 3}
   - {fileID: 5559694988392259305, guid: e8b967c6adffe054ca0eaafc14286490, type: 3}
+  - {fileID: 21300000, guid: 335013c71bee0c74f9eb047af681f764, type: 3}
   - {fileID: 21300000, guid: ce7739788f985d34a9eceebf2ff356da, type: 3}
   - {fileID: 2313419830122661008, guid: 4bc02339bbe53f2419db2193832e9b80, type: 3}
   - {fileID: 6349480184285452005, guid: 4bc02339bbe53f2419db2193832e9b80, type: 3}
@@ -2469,6 +2470,7 @@ SpriteAtlas:
   - {fileID: -6960371683831875272, guid: ee7b032fe7f8b634c9ada1d225f48fbe, type: 3}
   - {fileID: 6469460937200175538, guid: ee7b032fe7f8b634c9ada1d225f48fbe, type: 3}
   - {fileID: 2924928888349640390, guid: ee7b032fe7f8b634c9ada1d225f48fbe, type: 3}
+  - {fileID: 21300000, guid: 54fdd33f2bda51d4cbd2913f30e37bd7, type: 3}
   m_PackedSpriteNamesToIndex:
   - log_8
   - log_9
@@ -3189,6 +3191,7 @@ SpriteAtlas:
   - Inner_38
   - Inner_42
   - Inner_43
+  - magic bottle
   - bow
   - cave_50
   - cave_51
@@ -4892,5 +4895,6 @@ SpriteAtlas:
   - Overworld_623
   - Overworld_673
   - Overworld_129
+  - magic bar
   m_Tag: sprite_atlas
   m_IsVariant: 0
