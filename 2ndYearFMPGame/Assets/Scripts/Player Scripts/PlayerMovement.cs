@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     public Signal playerHit;
     public Signal reduceMagic;
     public GameObject projectile;
+    public Item bow;
 
 
     
@@ -49,7 +50,10 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetButtonDown("Second weapon") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
         {
-            StartCoroutine(SecondAttackCo());
+            if (playerInventory.CheckForItem(bow))
+            {
+                StartCoroutine(SecondAttackCo());
+            } 
         }
     }
 
