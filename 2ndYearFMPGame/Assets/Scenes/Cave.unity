@@ -128,6 +128,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1459366184}
     m_Modifications:
+    - target: {fileID: 3143490018621114004, guid: 9841c0612a0e09942b5591d216111ab0,
+        type: 3}
+      propertyPath: thisLoot
+      value: 
+      objectReference: {fileID: 11400000, guid: aa23df9d4896fec4390b0938ee9ceb5c,
+        type: 2}
     - target: {fileID: 3143490018621114006, guid: 9841c0612a0e09942b5591d216111ab0,
         type: 3}
       propertyPath: m_Name
@@ -42394,6 +42400,12 @@ PrefabInstance:
       propertyPath: chaseRadius
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 3252200371514812571, guid: cd42d1de408db384796950f0055801de,
+        type: 3}
+      propertyPath: thisLoot
+      value: 
+      objectReference: {fileID: 11400000, guid: 3d151fbfec72ef341953668a782f7b01,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd42d1de408db384796950f0055801de, type: 3}
 --- !u!1 &1186219053
