@@ -6,6 +6,7 @@ TagManager:
   tags:
   - breakable
   - enemy
+  - boundary
   layers:
   - Default
   - TransparentFX
