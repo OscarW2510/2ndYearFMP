@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: f164d1e0d4c5f4e479e6ff3acab9ff31, type: 3}
-    totalSpriteSurfaceArea: 1018096
+    totalSpriteSurfaceArea: 1048832
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -767,6 +767,7 @@ SpriteAtlas:
   - {fileID: 1036803682579554421, guid: e8b967c6adffe054ca0eaafc14286490, type: 3}
   - {fileID: 5559694988392259305, guid: e8b967c6adffe054ca0eaafc14286490, type: 3}
   - {fileID: 21300000, guid: 335013c71bee0c74f9eb047af681f764, type: 3}
+  - {fileID: 21300000, guid: 8ed5a35895e7804448f5b23258bc85bb, type: 3}
   - {fileID: 21300000, guid: ce7739788f985d34a9eceebf2ff356da, type: 3}
   - {fileID: 2313419830122661008, guid: 4bc02339bbe53f2419db2193832e9b80, type: 3}
   - {fileID: 6349480184285452005, guid: 4bc02339bbe53f2419db2193832e9b80, type: 3}
@@ -909,6 +910,7 @@ SpriteAtlas:
   - {fileID: -1419848258287518731, guid: 0c485a7a5f84a5845b2acf685f283a90, type: 3}
   - {fileID: -8216221284346832080, guid: 0c485a7a5f84a5845b2acf685f283a90, type: 3}
   - {fileID: -2667474676553970045, guid: 0c485a7a5f84a5845b2acf685f283a90, type: 3}
+  - {fileID: 21300000, guid: 982dd2ca41672a742a308f9764812f3f, type: 3}
   - {fileID: -7318864361395112647, guid: 3897954b98e91ba4ca0ae72cdf0816a4, type: 3}
   - {fileID: 3830642159544845040, guid: 3897954b98e91ba4ca0ae72cdf0816a4, type: 3}
   - {fileID: 3772937518185825702, guid: 3897954b98e91ba4ca0ae72cdf0816a4, type: 3}
@@ -3192,6 +3194,7 @@ SpriteAtlas:
   - Inner_42
   - Inner_43
   - magic bottle
+  - Main Menu
   - bow
   - cave_50
   - cave_51
@@ -3334,6 +3337,7 @@ SpriteAtlas:
   - Cave Reskin 2_15
   - Cave Reskin 2_18
   - Cave Reskin 2_19
+  - pixil-frame-0
   - font_14
   - font_15
   - font_16
