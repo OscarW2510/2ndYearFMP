@@ -9,7 +9,7 @@ public class GameSaveManager : MonoBehaviour
 
     private void Awake()
     {
-        if(gameSave = null)
+        if(gameSave == null)
         {
             gameSave = this;
         }
