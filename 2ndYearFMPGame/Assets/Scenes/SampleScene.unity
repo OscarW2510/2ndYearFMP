@@ -74235,7 +74235,8 @@ PrefabInstance:
         type: 3}
       propertyPath: thisLoot
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: b4d62581624d5ef44bfe5c8a717b6a5b,
+        type: 2}
     - target: {fileID: 6290875679880690015, guid: 763585f755971914b8090489ff2e3643,
         type: 3}
       propertyPath: m_Name

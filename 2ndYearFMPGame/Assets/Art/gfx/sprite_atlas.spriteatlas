@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: f164d1e0d4c5f4e479e6ff3acab9ff31, type: 3}
-    totalSpriteSurfaceArea: 1048832
+    totalSpriteSurfaceArea: 1069568
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -74,6 +74,7 @@ SpriteAtlas:
   - {fileID: 4328626103302227732, guid: 537b5e6044e883249bbb739d2565978f, type: 3}
   - {fileID: 4268471932424394617, guid: 537b5e6044e883249bbb739d2565978f, type: 3}
   - {fileID: -3438796335496917445, guid: 537b5e6044e883249bbb739d2565978f, type: 3}
+  - {fileID: 21300000, guid: 1bb04602575cb054fa5c0e3bfe93512f, type: 3}
   - {fileID: -7282578477265071295, guid: 08b0daf35655170438a9d47807bc639c, type: 3}
   - {fileID: -1380789455718432932, guid: 08b0daf35655170438a9d47807bc639c, type: 3}
   - {fileID: 5251735986783334359, guid: 08b0daf35655170438a9d47807bc639c, type: 3}
@@ -766,8 +767,8 @@ SpriteAtlas:
   - {fileID: 536419509007563539, guid: e8b967c6adffe054ca0eaafc14286490, type: 3}
   - {fileID: 1036803682579554421, guid: e8b967c6adffe054ca0eaafc14286490, type: 3}
   - {fileID: 5559694988392259305, guid: e8b967c6adffe054ca0eaafc14286490, type: 3}
+  - {fileID: 21300000, guid: fda09e17c63214240bd0c59cde73d7bc, type: 3}
   - {fileID: 21300000, guid: 335013c71bee0c74f9eb047af681f764, type: 3}
-  - {fileID: 21300000, guid: 8ed5a35895e7804448f5b23258bc85bb, type: 3}
   - {fileID: 21300000, guid: ce7739788f985d34a9eceebf2ff356da, type: 3}
   - {fileID: 2313419830122661008, guid: 4bc02339bbe53f2419db2193832e9b80, type: 3}
   - {fileID: 6349480184285452005, guid: 4bc02339bbe53f2419db2193832e9b80, type: 3}
@@ -2501,6 +2502,7 @@ SpriteAtlas:
   - campfire_16x16_3
   - campfire_16x16_0
   - campfire_16x16_1
+  - Main Menu 2
   - objects reskin_73
   - objects reskin_72
   - objects reskin_48
@@ -3193,8 +3195,8 @@ SpriteAtlas:
   - Inner_38
   - Inner_42
   - Inner_43
+  - Options Menu 2
   - magic bottle
-  - Main Menu
   - bow
   - cave_50
   - cave_51
