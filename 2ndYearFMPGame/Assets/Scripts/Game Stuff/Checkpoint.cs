@@ -13,6 +13,7 @@ public class Checkpoint : MonoBehaviour
         {
             CameraMovement cam = Camera.main.GetComponent<CameraMovement>();
             SavedData.SaveData(playerStorage, collision.gameObject.transform.position, cameraStorage, cam.minPosition, cam.maxPosition);
+            SoundManager.PlaySound("campfire");
             Debug.Log("Saved!");
         }
     }

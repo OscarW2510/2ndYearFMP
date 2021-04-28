@@ -18,6 +18,7 @@ public class MagicBottle : PowerUp
         if (other.gameObject.CompareTag("Player"))
         {
             playerInventory.currentMagic += magicValue;
+            SoundManager.PlaySound("magicBottle");
             powerupSignal.Raise();
             Destroy(this.gameObject);
         } 
