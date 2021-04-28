@@ -20,6 +20,7 @@ public class HealthDrop : PowerUp
             //{
             //    playerHealth.initialValue = heartContainers.RuntimeValue * 2f;
             //}
+            SoundManager.PlaySound("heartPickUp");
             powerupSignal.Raise();
             Destroy(this.gameObject);
         }

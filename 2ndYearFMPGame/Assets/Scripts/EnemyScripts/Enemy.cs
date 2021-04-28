@@ -34,6 +34,7 @@ public class Enemy : MonoBehaviour
             DeathEffect();
             MakeLoot();
             this.gameObject.SetActive(false);
+            SoundManager.PlaySound("enemyDeath");
             //if (drop) Instantiate(theDrop, transform.position, transform.rotation);
         }
     }

@@ -34,6 +34,7 @@ public class Pot : MonoBehaviour
 
     IEnumerator breakCo()
     {
+        SoundManager.PlaySound("potSmash");
         yield return new WaitForSeconds(.3f);
         MakeLoot();
         this.gameObject.SetActive(false);

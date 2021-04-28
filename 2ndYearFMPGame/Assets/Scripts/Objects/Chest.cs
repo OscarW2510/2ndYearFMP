@@ -33,6 +33,7 @@ public class Chest : Interactable
         {
             if (!isOpen)
             {
+                SoundManager.PlaySound("chestOpening");
                 OpenChest();
             }
             else

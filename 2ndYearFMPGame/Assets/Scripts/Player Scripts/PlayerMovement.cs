@@ -105,6 +105,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(playerInventory.currentMagic > 0)
         {
+            SoundManager.PlaySound("arrowShot");
             Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
             Arrow arrow = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Arrow>();
             arrow.Setup(temp, ChooseArrowDirection());
@@ -156,6 +157,7 @@ public class PlayerMovement : MonoBehaviour
 
     void MoveCharacter()
     {
+        SoundManager.PlaySound("walk");
         change.Normalize();
         myRigidbody.MovePosition(
             transform.position + change * speed * Time.deltaTime
@@ -165,6 +167,7 @@ public class PlayerMovement : MonoBehaviour
     public void Knock(float knockTime, float damage)
     {
         currentHealth.RuntimeValue -= damage;
+        SoundManager.PlaySound("playerHit");
         playerHealthSignal.Raise();
         if (currentHealth.RuntimeValue > 0)
         {
@@ -174,7 +177,7 @@ public class PlayerMovement : MonoBehaviour
         {
             GameStart.Died();
             currentHealth.RuntimeValue = currentHealth.initialValue;
-            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(1);
             this.gameObject.SetActive(false);
         }
     }

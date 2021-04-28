@@ -24,6 +24,7 @@ public class Coin : PowerUp
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
+            SoundManager.PlaySound("coinPickUp");
             playerInventory.coins += 1;
             powerupSignal.Raise();
             Destroy(this.gameObject);

@@ -35,6 +35,7 @@ public class Arrow : MonoBehaviour
     {
         if (!other.gameObject.CompareTag("Player") && !other.gameObject.CompareTag("boundary") && !other.gameObject.CompareTag("checkpoint"))
         {
+            SoundManager.PlaySound("arrowImpact");
             Destroy(this.gameObject);
         }
     }

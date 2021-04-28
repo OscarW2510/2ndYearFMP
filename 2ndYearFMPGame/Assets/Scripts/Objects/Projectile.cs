@@ -34,6 +34,7 @@ public class Projectile : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
+        SoundManager.PlaySound("arrowImpact");
         Destroy(this.gameObject);
     }
 }
