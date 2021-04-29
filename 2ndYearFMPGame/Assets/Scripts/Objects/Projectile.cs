@@ -34,7 +34,10 @@ public class Projectile : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        SoundManager.PlaySound("arrowImpact");
-        Destroy(this.gameObject);
+        if (!other.gameObject.CompareTag("boundary") && !other.gameObject.CompareTag("checkpoint"))
+        {
+            SoundManager.PlaySound("arrowImpact");
+            Destroy(this.gameObject);
+        }
     }
 }

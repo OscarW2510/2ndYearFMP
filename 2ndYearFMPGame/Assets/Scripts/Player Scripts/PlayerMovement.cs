@@ -74,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator AttackCo()
     {
+        SoundManager.PlaySound("swordWoosh");
         animator.SetBool("attacking", true);
         currentState = PlayerState.attack;
         yield return null;
