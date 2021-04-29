@@ -5,7 +5,7 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     public static AudioClip playerHitSound, enemyDeathSound, walkingSound, arrowShotSound, potSmashSound, arrowImpactSound, coinSound, heartSound, chestOpenSound, campfireSound,
-        magicBottleSound, swordWooshSound;
+        magicBottleSound, swordWooshSound, enemyHitSound;
     public static AudioSource audioSrc;
 
     // Start is called before the first frame update
@@ -25,6 +25,7 @@ public class SoundManager : MonoBehaviour
         campfireSound = Resources.Load<AudioClip>("campfire");
         magicBottleSound = Resources.Load<AudioClip>("magicBottle");
         swordWooshSound = Resources.Load<AudioClip>("swordWoosh");
+        enemyHitSound = Resources.Load<AudioClip>("enemyHit");
 
         audioSrc = GetComponent<AudioSource>();
     }
@@ -70,13 +71,16 @@ public class SoundManager : MonoBehaviour
                 audioSrc.PlayOneShot(chestOpenSound, 0.15f);
                 break;
             case "campfire":
-                audioSrc.PlayOneShot(campfireSound, 1f);
+                audioSrc.PlayOneShot(campfireSound, 0.25f);
                 break;
             case "magicBottle":
                 audioSrc.PlayOneShot(magicBottleSound, 0.15f);
                 break;
             case "swordWoosh":
-                audioSrc.PlayOneShot(swordWooshSound, 0.4f);
+                audioSrc.PlayOneShot(swordWooshSound, 0.6f);
+                break;
+            case "enemyHit":
+                audioSrc.PlayOneShot(enemyHitSound, 0.4f);
                 break;
         }
     }  

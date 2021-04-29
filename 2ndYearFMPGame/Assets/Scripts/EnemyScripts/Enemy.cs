@@ -28,6 +28,7 @@ public class Enemy : MonoBehaviour
     }
     private void TakeDamage(float damage)
     {
+        SoundManager.PlaySound("enemyHit");
         health -= damage;
         if(health <= 0)
         {
