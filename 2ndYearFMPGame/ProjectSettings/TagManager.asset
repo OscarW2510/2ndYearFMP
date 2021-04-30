@@ -8,6 +8,7 @@ TagManager:
   - enemy
   - boundary
   - checkpoint
+  - enemyRoom
   layers:
   - Default
   - TransparentFX

@@ -33,7 +33,7 @@ public class Arrow : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.gameObject.CompareTag("Player") && !other.gameObject.CompareTag("boundary") && !other.gameObject.CompareTag("checkpoint"))
+        if (!other.gameObject.CompareTag("Player") && !other.gameObject.CompareTag("boundary") && !other.gameObject.CompareTag("checkpoint") && !other.gameObject.CompareTag("enemyRoom"))
         {
             SoundManager.PlaySound("arrowImpact");
             Destroy(this.gameObject);

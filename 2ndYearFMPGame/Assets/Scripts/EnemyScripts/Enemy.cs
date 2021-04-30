@@ -34,6 +34,11 @@ public class Enemy : MonoBehaviour
         {
             DeathEffect();
             MakeLoot();
+            if(OnDeath != null)
+            {
+                OnDeath.Invoke();
+                OnDeath = null;
+            }
             this.gameObject.SetActive(false);
             SoundManager.PlaySound("enemyDeath");
             //if (drop) Instantiate(theDrop, transform.position, transform.rotation);
@@ -77,4 +82,8 @@ public class Enemy : MonoBehaviour
 
         }
     }
+
+    public delegate void DeathCount();
+
+    public event DeathCount OnDeath;
 }
