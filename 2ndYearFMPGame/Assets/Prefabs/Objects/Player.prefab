@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6453979577731436281}
   m_Layer: 11
   m_Name: 'right hit box '
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -317,7 +317,7 @@ MonoBehaviour:
   speed: 4
   currentHealth: {fileID: 11400000, guid: beb4fe7490bf2b246a02b3781a55c32b, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 68bf112e0e215fe469444db4193a2ef5, type: 2}
-  startingPosition: {fileID: 11400000, guid: 43cd988dcd313ee4b95960e8facc4bf6, type: 2}
+  startingPosition: {fileID: 11400000, guid: 8450b0771fc9b3a449916d20201f2180, type: 2}
   playerInventory: {fileID: 11400000, guid: 28350107519c88c4a8b25f3e97674278, type: 2}
   gotItemSprite: {fileID: 3241628251691223703}
   playerHit: {fileID: 11400000, guid: 109a4bd7dc435cf43abc0480769b5292, type: 2}
@@ -533,7 +533,7 @@ GameObject:
   - component: {fileID: 1117551838557344070}
   m_Layer: 11
   m_Name: up hit box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -610,7 +610,7 @@ GameObject:
   - component: {fileID: 2806758881082948363}
   m_Layer: 11
   m_Name: down hit box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -687,7 +687,7 @@ GameObject:
   - component: {fileID: 5648269949922051620}
   m_Layer: 11
   m_Name: left hit box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

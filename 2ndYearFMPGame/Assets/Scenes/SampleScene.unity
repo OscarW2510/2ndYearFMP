@@ -21836,7 +21836,7 @@ PrefabInstance:
     - target: {fileID: 1034381657484173178, guid: 1b888b71744284a489039f9742821a74,
         type: 3}
       propertyPath: playerPosition.y
-      value: -3
+      value: -6.3
       objectReference: {fileID: 0}
     - target: {fileID: 1034381657484173178, guid: 1b888b71744284a489039f9742821a74,
         type: 3}
@@ -76103,6 +76103,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1622753573915183092, guid: 8449dafcea7835249bf576659841e6fa,
+        type: 3}
+      propertyPath: m_TagString
+      value: Sword
+      objectReference: {fileID: 0}
     - target: {fileID: 3241628250940822408, guid: 8449dafcea7835249bf576659841e6fa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -76158,10 +76163,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3241628251275431520, guid: 8449dafcea7835249bf576659841e6fa,
+        type: 3}
+      propertyPath: startingPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: 43cd988dcd313ee4b95960e8facc4bf6,
+        type: 2}
     - target: {fileID: 3241628251275431527, guid: 8449dafcea7835249bf576659841e6fa,
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4732870597173441417, guid: 8449dafcea7835249bf576659841e6fa,
+        type: 3}
+      propertyPath: m_TagString
+      value: Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641067673054752548, guid: 8449dafcea7835249bf576659841e6fa,
+        type: 3}
+      propertyPath: m_TagString
+      value: Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740890558042245040, guid: 8449dafcea7835249bf576659841e6fa,
+        type: 3}
+      propertyPath: m_TagString
+      value: Sword
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8449dafcea7835249bf576659841e6fa, type: 3}
