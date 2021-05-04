@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: f164d1e0d4c5f4e479e6ff3acab9ff31, type: 3}
-    totalSpriteSurfaceArea: 1069568
+    totalSpriteSurfaceArea: 1094144
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -2474,6 +2474,30 @@ SpriteAtlas:
   - {fileID: 6469460937200175538, guid: ee7b032fe7f8b634c9ada1d225f48fbe, type: 3}
   - {fileID: 2924928888349640390, guid: ee7b032fe7f8b634c9ada1d225f48fbe, type: 3}
   - {fileID: 21300000, guid: 54fdd33f2bda51d4cbd2913f30e37bd7, type: 3}
+  - {fileID: -5797867028053282885, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: -2570956831279765433, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: 2496760910471112636, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: 746715895475224710, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: -4412867578002160068, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: -4868608061733914514, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: 3376086799016132554, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: 6872825303481215724, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: 5254175058286817765, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: -7955705104129277373, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: 2238678288228660091, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: 4557228450434424755, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: -8483712682692722659, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: -5990894154275797256, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: -6034837968818003665, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: -6196381984537254654, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: 5747865626342567117, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: 7798752195784781863, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: 6578026404869059530, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: -3269527114826397181, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: -7134331598843154890, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: -7325301851549428462, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: 6766431303770660352, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
+  - {fileID: 4250571088523618905, guid: f6a91a4ffd051d148b6eefdee7f317df, type: 3}
   m_PackedSpriteNamesToIndex:
   - log_8
   - log_9
@@ -4902,5 +4926,29 @@ SpriteAtlas:
   - Overworld_673
   - Overworld_129
   - magic bar
+  - bird_2_black_4
+  - bird_2_black_5
+  - bird_2_black_6
+  - bird_2_black_7
+  - bird_2_black_0
+  - bird_2_black_1
+  - bird_2_black_2
+  - bird_2_black_3
+  - bird_2_black_8
+  - bird_2_black_9
+  - bird_2_black_22
+  - bird_2_black_23
+  - bird_2_black_20
+  - bird_2_black_21
+  - bird_2_black_19
+  - bird_2_black_18
+  - bird_2_black_17
+  - bird_2_black_16
+  - bird_2_black_15
+  - bird_2_black_14
+  - bird_2_black_13
+  - bird_2_black_12
+  - bird_2_black_11
+  - bird_2_black_10
   m_Tag: sprite_atlas
   m_IsVariant: 0

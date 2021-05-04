@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     public Signal reduceMagic;
     public GameObject projectile;
     public Item bow;
+    public string walkSound = "walk";
 
 
     
@@ -158,7 +159,7 @@ public class PlayerMovement : MonoBehaviour
 
     void MoveCharacter()
     {
-        SoundManager.PlaySound("walk");
+        SoundManager.PlaySound(walkSound);
         change.Normalize();
         myRigidbody.MovePosition(
             transform.position + change * speed * Time.deltaTime

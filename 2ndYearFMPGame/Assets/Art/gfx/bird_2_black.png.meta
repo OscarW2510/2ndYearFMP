@@ -1,0 +1,968 @@
+fileFormatVersion: 2
+guid: f6a91a4ffd051d148b6eefdee7f317df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4412867578002160068
+    second: bird_2_black_0
+  - first:
+      213: -4868608061733914514
+    second: bird_2_black_1
+  - first:
+      213: 3376086799016132554
+    second: bird_2_black_2
+  - first:
+      213: 6872825303481215724
+    second: bird_2_black_3
+  - first:
+      213: -5797867028053282885
+    second: bird_2_black_4
+  - first:
+      213: -2570956831279765433
+    second: bird_2_black_5
+  - first:
+      213: 2496760910471112636
+    second: bird_2_black_6
+  - first:
+      213: 746715895475224710
+    second: bird_2_black_7
+  - first:
+      213: 5254175058286817765
+    second: bird_2_black_8
+  - first:
+      213: -7955705104129277373
+    second: bird_2_black_9
+  - first:
+      213: 4250571088523618905
+    second: bird_2_black_10
+  - first:
+      213: 6766431303770660352
+    second: bird_2_black_11
+  - first:
+      213: -7325301851549428462
+    second: bird_2_black_12
+  - first:
+      213: -7134331598843154890
+    second: bird_2_black_13
+  - first:
+      213: -3269527114826397181
+    second: bird_2_black_14
+  - first:
+      213: 6578026404869059530
+    second: bird_2_black_15
+  - first:
+      213: 7798752195784781863
+    second: bird_2_black_16
+  - first:
+      213: 5747865626342567117
+    second: bird_2_black_17
+  - first:
+      213: -6196381984537254654
+    second: bird_2_black_18
+  - first:
+      213: -6034837968818003665
+    second: bird_2_black_19
+  - first:
+      213: -8483712682692722659
+    second: bird_2_black_20
+  - first:
+      213: -5990894154275797256
+    second: bird_2_black_21
+  - first:
+      213: 2238678288228660091
+    second: bird_2_black_22
+  - first:
+      213: 4557228450434424755
+    second: bird_2_black_23
+  - first:
+      213: -5815817400267327947
+    second: bird_2_black_24
+  - first:
+      213: 8976691026543753764
+    second: bird_2_black_25
+  - first:
+      213: -2055908470622757414
+    second: bird_2_black_26
+  - first:
+      213: -2765712467369802626
+    second: bird_2_black_27
+  - first:
+      213: -549129270104284417
+    second: bird_2_black_28
+  - first:
+      213: 4246003511143899206
+    second: bird_2_black_29
+  - first:
+      213: 2803748262141407214
+    second: bird_2_black_30
+  - first:
+      213: 8934772268308274922
+    second: bird_2_black_31
+  - first:
+      213: -1605627710915918833
+    second: bird_2_black_32
+  - first:
+      213: 8053569363506793008
+    second: bird_2_black_33
+  - first:
+      213: 7719007815818530816
+    second: bird_2_black_34
+  - first:
+      213: 5559602439936555034
+    second: bird_2_black_35
+  - first:
+      213: -4746455064635500566
+    second: bird_2_black_36
+  - first:
+      213: -2808467408004196439
+    second: bird_2_black_37
+  - first:
+      213: -1703722396131535277
+    second: bird_2_black_38
+  - first:
+      213: -1552729025780207274
+    second: bird_2_black_39
+  - first:
+      213: -581761670052716329
+    second: bird_2_black_40
+  - first:
+      213: 5879377133602206623
+    second: bird_2_black_41
+  - first:
+      213: -3041785433899627897
+    second: bird_2_black_42
+  - first:
+      213: -712187624647343940
+    second: bird_2_black_43
+  - first:
+      213: 6394191322383652937
+    second: bird_2_black_44
+  - first:
+      213: 1388393277216525386
+    second: bird_2_black_45
+  - first:
+      213: -4892262366257421927
+    second: bird_2_black_46
+  - first:
+      213: -6999286050797486905
+    second: bird_2_black_47
+  - first:
+      213: 5384231083831079941
+    second: bird_2_black_48
+  - first:
+      213: 6102834940137602678
+    second: bird_2_black_49
+  - first:
+      213: -5230100208048691973
+    second: bird_2_black_50
+  - first:
+      213: -6959895529646369165
+    second: bird_2_black_51
+  - first:
+      213: 6160642564731085520
+    second: bird_2_black_52
+  - first:
+      213: 6925925096288616409
+    second: bird_2_black_53
+  - first:
+      213: 3326413110955698257
+    second: bird_2_black_54
+  - first:
+      213: 7768856024495481215
+    second: bird_2_black_55
+  - first:
+      213: 4705986258772321286
+    second: bird_2_black_56
+  - first:
+      213: -8673044525752027418
+    second: bird_2_black_57
+  - first:
+      213: -5435608808235616005
+    second: bird_2_black_58
+  - first:
+      213: 7307889830306177017
+    second: bird_2_black_59
+  - first:
+      213: 7931888849836042026
+    second: bird_2_black_60
+  - first:
+      213: 5934981893526387986
+    second: bird_2_black_61
+  - first:
+      213: 7940358123501471982
+    second: bird_2_black_62
+  - first:
+      213: -6985641160612880879
+    second: bird_2_black_63
+  - first:
+      213: 2629606199311977988
+    second: bird_2_black_64
+  - first:
+      213: 1834046488299059681
+    second: bird_2_black_65
+  - first:
+      213: -2452072523920610848
+    second: bird_2_black_66
+  - first:
+      213: 1073204006000243924
+    second: bird_2_black_67
+  - first:
+      213: 2156336237214298980
+    second: bird_2_black_68
+  - first:
+      213: 3503880121828000682
+    second: bird_2_black_69
+  - first:
+      213: 5092528614929768012
+    second: bird_2_black_70
+  - first:
+      213: -7815662477394361410
+    second: bird_2_black_71
+  - first:
+      213: -1464329145058591555
+    second: bird_2_black_72
+  - first:
+      213: 7528646417152541373
+    second: bird_2_black_73
+  - first:
+      213: 2668136367442876113
+    second: bird_2_black_74
+  - first:
+      213: 8344832376198513423
+    second: bird_2_black_75
+  - first:
+      213: 3912957596693710209
+    second: bird_2_black_76
+  - first:
+      213: 608231044051530515
+    second: bird_2_black_77
+  - first:
+      213: -4236131613300242940
+    second: bird_2_black_78
+  - first:
+      213: -6838598766165111019
+    second: bird_2_black_79
+  - first:
+      213: -2202819614158858898
+    second: bird_2_black_80
+  - first:
+      213: -7116276055147977247
+    second: bird_2_black_81
+  - first:
+      213: 2619630993666282310
+    second: bird_2_black_82
+  - first:
+      213: -5116968112172174631
+    second: bird_2_black_83
+  - first:
+      213: 3375624646513117978
+    second: bird_2_black_84
+  - first:
+      213: -2601841963065169887
+    second: bird_2_black_85
+  - first:
+      213: -4768128507373877496
+    second: bird_2_black_86
+  - first:
+      213: 7719199194610140832
+    second: bird_2_black_87
+  - first:
+      213: -7139053666675399402
+    second: bird_2_black_88
+  - first:
+      213: -3842848024779301586
+    second: bird_2_black_89
+  - first:
+      213: 5232543443058532186
+    second: bird_2_black_90
+  - first:
+      213: 1470930828141233937
+    second: bird_2_black_91
+  - first:
+      213: 9122025829378808374
+    second: bird_2_black_92
+  - first:
+      213: -7717511528722315395
+    second: bird_2_black_93
+  - first:
+      213: -7041116550395649534
+    second: bird_2_black_94
+  - first:
+      213: -2369357572670078311
+    second: bird_2_black_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bird_2_black_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36c754715852c2c0800000000000000
+      internalID: -4412867578002160068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e683fb943ca3f6cb0800000000000000
+      internalID: -4868608061733914514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acffd327e054ade20800000000000000
+      internalID: 3376086799016132554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea6051233e216f50800000000000000
+      internalID: 6872825303481215724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf2fe908a6d98fa0800000000000000
+      internalID: -5797867028053282885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748a4ba2260225cd0800000000000000
+      internalID: -2570956831279765433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb726b5d1d646a220800000000000000
+      internalID: 2496760910471112636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68040f1962edc5a00800000000000000
+      internalID: 746715895475224710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e137e0b0649ae840800000000000000
+      internalID: 5254175058286817765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342cc92eb58a79190800000000000000
+      internalID: -7955705104129277373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95aeeff62ef0dfa30800000000000000
+      internalID: 4250571088523618905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e5552bb6137ed50800000000000000
+      internalID: 6766431303770660352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21592e1f6cc475a90800000000000000
+      internalID: -7325301851549428462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63eeb1dc533cdfc90800000000000000
+      internalID: -7134331598843154890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ac349696e40a2d0800000000000000
+      internalID: -3269527114826397181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac33c51d928d94b50800000000000000
+      internalID: 6578026404869059530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720bc017dcbba3c60800000000000000
+      internalID: 7798752195784781863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcca3da655584cf40800000000000000
+      internalID: 5747865626342567117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205e6073a67020aa0800000000000000
+      internalID: -6196381984537254654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21209f57d2ff3ca0800000000000000
+      internalID: -6034837968818003665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10cf93834cc34a80800000000000000
+      internalID: -8483712682692722659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f64d6ff1811cdca0800000000000000
+      internalID: -5990894154275797256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73bf38ca02611f10800000000000000
+      internalID: 2238678288228660091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird_2_black_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf927461278e3f30800000000000000
+      internalID: 4557228450434424755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
