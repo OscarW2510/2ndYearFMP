@@ -17,6 +17,7 @@ public class SceneTransition : MonoBehaviour
 
     private void Awake()
     {
+        MainMenu.savedScene = SceneManager.GetActiveScene().buildIndex;
         if(fadeInPanel != null)
         {
             GameObject panel = Instantiate(fadeInPanel, Vector3.zero, Quaternion.identity) as GameObject;

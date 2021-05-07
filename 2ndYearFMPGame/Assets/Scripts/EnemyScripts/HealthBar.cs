@@ -20,10 +20,13 @@ public class HealthBar : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        active = false;
-        healthBar.gameObject.SetActive(false);
+        if (other.tag == "Player")
+        {
+            active = false;
+            healthBar.gameObject.SetActive(false);
+        }
     }
 
     private void Update()

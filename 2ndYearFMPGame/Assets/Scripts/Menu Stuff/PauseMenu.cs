@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
+    public VectorValue playerPosition;
     private void Update()
     {
         if (Input.GetButtonDown("Cancel"))
@@ -16,6 +17,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void GotToMainMenu()
     {
+        playerPosition.initialValue = FindObjectOfType<PlayerMovement>().transform.position;
         Time.timeScale = 1;
         SceneManager.LoadScene("Main Menu");
     }
