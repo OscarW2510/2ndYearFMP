@@ -3018,7 +3018,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 496723682}
   playerPosition: {fileID: 11400000, guid: 43cd988dcd313ee4b95960e8facc4bf6, type: 2}
-  cameraPosition: {fileID: 0}
 --- !u!114 &519420036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75985,6 +75984,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 43cd988dcd313ee4b95960e8facc4bf6,
         type: 2}
+    - target: {fileID: 3241628251275431520, guid: 8449dafcea7835249bf576659841e6fa,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3241628251275431527, guid: 8449dafcea7835249bf576659841e6fa,
         type: 3}
       propertyPath: m_Name
