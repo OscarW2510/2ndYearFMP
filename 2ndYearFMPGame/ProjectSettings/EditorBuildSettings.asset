@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cave.unity
     guid: 557ac7288f06f45419b0772d5e1dc22b
+  - enabled: 1
+    path: Assets/Scenes/LevelComplete.unity
+    guid: e314c15249058cd40826302980d78a3b
   m_configObjects: {}
