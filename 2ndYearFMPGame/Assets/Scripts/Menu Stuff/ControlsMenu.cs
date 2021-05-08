@@ -17,15 +17,15 @@ public class ControlsMenu : MonoBehaviour
         {
             controls.SetActive(true);
             StartCoroutine("WaitForSec");
-            //Time.timeScale = (Time.timeScale == 1) ? 0 : 1;
+            Time.timeScale = 0;
         }
     }
 
     IEnumerator WaitForSec()
     {
-        yield return new WaitForSeconds(7);
+        yield return new WaitForSecondsRealtime(7);
         Destroy(controls);
         Destroy(gameObject);
-        //Time.timeScale = 1;
+        Time.timeScale = 1;
     }
 }
