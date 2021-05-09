@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 3252200371514812569}
   - component: {fileID: 3252200371514812573}
   - component: {fileID: 3252200371514812572}
-  - component: {fileID: 3252200371514812571}
+  - component: {fileID: 1829823877}
   m_Layer: 0
-  m_Name: Cave Area Log (1)
+  m_Name: Cave Boss
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,9 +30,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3252200371514812565}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.82, y: 5.172079, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 1004160523
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1392883362102840988, guid: 0c485a7a5f84a5845b2acf685f283a90,
+  m_Sprite: {fileID: -6327706160691889000, guid: f285bd75aeec55b409ea6e7329ce0746,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 3252200371514812565}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 32ed00de3f8a760488b14a8145c4f241, type: 2}
+  m_Controller: {fileID: 22100000, guid: 629f4b0156a1aad4eb217f6a8ad27f97, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -195,7 +195,7 @@ MonoBehaviour:
   thrust: 4
   knockTime: 0.2
   damage: 1
---- !u!114 &3252200371514812571
+--- !u!114 &1829823877
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -204,23 +204,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 3252200371514812565}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b523460476e06414ba13c3735783436f, type: 3}
+  m_Script: {fileID: 11500000, guid: b9a10600a4112254986d67979aadd7ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  maxHealth: {fileID: 11400000, guid: 949dad022a031494c948ecf33adf93b9, type: 2}
+  maxHealth: {fileID: 11400000, guid: 86e659d45f8229f4dbd2a0b963031910, type: 2}
   health: 0
   enemyName: 
   baseAttack: 1
   moveSpeed: 2
   deathEffect: {fileID: 2552168616611190401, guid: 00ced0cd02b604048ba2ee69998ede87,
     type: 3}
-  drop: 0
-  theDrop: {fileID: 5825753626840524877, guid: 7dd71977566c2bc4f80d87dc7f415347, type: 3}
+  thisLoot: {fileID: 11400000, guid: 3d151fbfec72ef341953668a782f7b01, type: 2}
   myRigidbody: {fileID: 0}
   target: {fileID: 0}
-  chaseRadius: 5
-  attackRadius: 2
+  chaseRadius: 20
+  attackRadius: 1.2
   homePosition: {fileID: 0}
   anim: {fileID: 0}
   boundary: {fileID: 0}

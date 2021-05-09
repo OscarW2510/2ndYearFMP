@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour
     {
         health = maxHealth.initialValue;
     }
-    private void TakeDamage(float damage)
+    protected virtual void TakeDamage(float damage)
     {
         SoundManager.PlaySound("enemyHit");
         health -= damage;
@@ -45,7 +45,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void MakeLoot()
+    protected void MakeLoot()
     {
         if(thisLoot != null)
         {
@@ -57,7 +57,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void DeathEffect()
+    protected void DeathEffect()
     {
         if(deathEffect != null)
         {

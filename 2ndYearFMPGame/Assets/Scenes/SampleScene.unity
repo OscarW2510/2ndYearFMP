@@ -2809,7 +2809,7 @@ MonoBehaviour:
   smoothing: 0.2
   maxPosition: {x: 1.12, y: 11}
   minPosition: {x: -12, y: -4}
-  cameraPosition: {fileID: 11400000, guid: 5559f1e75afa98741876eefc0b04e5c5, type: 2}
+  cameraPosition: {fileID: 11400000, guid: 83de87ea254126d4d95652cce38aa26b, type: 2}
   kickScreen: {fileID: 11400000, guid: 5559f1e75afa98741876eefc0b04e5c5, type: 2}
   anim: {fileID: 0}
 --- !u!20 &519420031
@@ -37101,7 +37101,7 @@ PrefabInstance:
     - target: {fileID: 1034381657484173178, guid: 1b888b71744284a489039f9742821a74,
         type: 3}
       propertyPath: playerPosition.y
-      value: -6.9
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 1034381657484173178, guid: 1b888b71744284a489039f9742821a74,
         type: 3}
@@ -37117,7 +37117,7 @@ PrefabInstance:
     - target: {fileID: 1034381657484173178, guid: 1b888b71744284a489039f9742821a74,
         type: 3}
       propertyPath: playerPosition.x
-      value: -2.5
+      value: -5.36
       objectReference: {fileID: 0}
     - target: {fileID: 4135603500408940720, guid: 1b888b71744284a489039f9742821a74,
         type: 3}
