@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d014dd1e609f17f4c891fa641c74b5a6, type: 3}
   m_Name: CaveCamera
   m_EditorClassIdentifier: 
-  minValue: {x: -9.1, y: -5}
-  maxValue: {x: 4.1, y: 11}
+  minValue: {x: -9, y: -4.66}
+  maxValue: {x: 4.2, y: 11}
