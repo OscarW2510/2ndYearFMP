@@ -30,6 +30,7 @@ public class Log : Enemy
 
     public virtual void CheckDistance()
     {
+        Debug.Log("Distance");
         if(Vector3.Distance(target.position, transform.position) <= chaseRadius && Vector3.Distance(target.position, transform.position) > attackRadius)
         {
             if (currentState == EnemyState.idle || currentState == EnemyState.walk && currentState != EnemyState.stagger)

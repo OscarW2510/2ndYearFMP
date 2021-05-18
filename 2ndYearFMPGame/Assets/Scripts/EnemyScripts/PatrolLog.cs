@@ -35,6 +35,7 @@ public class PatrolLog : Log
                 Vector3 temp = Vector3.MoveTowards(transform.position, path[currentPoint].position, moveSpeed * Time.deltaTime);
                 changeAnim(temp - transform.position);
                 myRigidbody.MovePosition(temp);
+                anim.SetBool("wakeUp", true);
             }
             else
             {

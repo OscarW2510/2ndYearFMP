@@ -19,6 +19,7 @@ public class Enemy : MonoBehaviour
     public GameObject deathEffect;
     private float deathEffectDelay = 1f;
     public LootTable thisLoot;
+    private bool hasDroppedLoot = false;
     //public bool drop;
     //public GameObject theDrop;
 
@@ -30,24 +31,32 @@ public class Enemy : MonoBehaviour
     {
         SoundManager.PlaySound("enemyHit");
         health -= damage;
-        if(health <= 0)
+        if (health <= 0)
         {
             DeathEffect();
             MakeLoot();
-            if(OnDeath != null)
+            if (OnDeath != null)
             {
                 OnDeath.Invoke();
                 OnDeath = null;
             }
             this.gameObject.SetActive(false);
             SoundManager.PlaySound("enemyDeath");
+            Invoke("Respawn", 15f);
             //if (drop) Instantiate(theDrop, transform.position, transform.rotation);
         }
     }
 
+    protected void Respawn()
+    {
+        this.gameObject.SetActive(true);
+        health = maxHealth.initialValue;
+        currentState = EnemyState.idle;
+    }
+
     protected void MakeLoot()
     {
-        if(thisLoot != null)
+        if(thisLoot != null && hasDroppedLoot == false)
         {
             PowerUp current = thisLoot.LootPowerUp();
             if(current != null)
@@ -55,6 +64,7 @@ public class Enemy : MonoBehaviour
                 Instantiate(current.gameObject, transform.position, Quaternion.identity);
             }
         }
+        hasDroppedLoot = true;
     }
 
     protected void DeathEffect()
