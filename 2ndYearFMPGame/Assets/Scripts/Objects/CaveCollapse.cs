@@ -31,7 +31,7 @@ public class CaveCollapse : MonoBehaviour
             hasActivated = true;
             anim.SetTrigger("shake");
             Invoke("BlockOfCave", 2);
-            Destroy(gameObject, 6);
+            Destroy(gameObject, 7.5f);
         }
     }
 
