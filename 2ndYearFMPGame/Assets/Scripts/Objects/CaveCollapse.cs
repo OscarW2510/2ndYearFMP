@@ -1,26 +1,60 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CaveCollapse : MonoBehaviour
 {
+    public Animator anim;
+    public GameObject caveLight;
+    public GameObject caveWall;
+    public GameObject sceneTransition;
+    public GameObject dialogBox;
+    public Text dialogText;
+    public string dialog;
+    static bool hasActivated = false;
+
+    private void Start()
+    {
+        if (hasActivated)
+        {
+            caveLight.SetActive(false);
+            caveWall.SetActive(true);
+            Destroy(gameObject);
+        }
+    }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.transform.tag == "Player")
+        if(other.transform.tag == "Player" && !other.isTrigger)
         {
-
+            hasActivated = true;
+            anim.SetTrigger("shake");
+            Invoke("BlockOfCave", 2);
+            Destroy(gameObject, 6);
         }
     }
-    // Start is called before the first frame update
-    void Start()
+
+    public void BlockOfCave()
     {
-        
+        caveLight.SetActive(false);
+        caveWall.SetActive(true);
+        sceneTransition.SetActive(false);
+        Invoke("DialogBoxOn", 2f);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void TurnOffDialogBox()
     {
-        
+        if (dialogBox.activeInHierarchy)
+        {
+            dialogBox.SetActive(false);
+        }
+    }
+
+    public void DialogBoxOn()
+    {
+        dialogBox.SetActive(true);
+        dialogText.text = dialog;
+        Invoke("TurnOffDialogBox", 2);
     }
 }
