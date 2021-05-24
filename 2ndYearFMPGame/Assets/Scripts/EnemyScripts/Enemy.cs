@@ -42,7 +42,7 @@ public class Enemy : MonoBehaviour
             }
             this.gameObject.SetActive(false);
             SoundManager.PlaySound("enemyDeath");
-            Invoke("Respawn", 40f);
+            Invoke("Respawn", 120f);
             //if (drop) Instantiate(theDrop, transform.position, transform.rotation);
         }
     }
