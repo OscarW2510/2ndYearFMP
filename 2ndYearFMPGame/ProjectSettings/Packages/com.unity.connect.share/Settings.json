@@ -6,7 +6,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"X:/Game Builds;X:/Game Builds/Zelda game final build;H:/Desktop/TestBuild2;C:/testbuild;;;;;;\"}"
+                "value": "{\"m_Value\":\"H:/Desktop/Zelda final build;X:/Game Builds;X:/Game Builds/Zelda game final build;H:/Desktop/TestBuild2;C:/testbuild;;;;;\"}"
             }
         ]
     }
