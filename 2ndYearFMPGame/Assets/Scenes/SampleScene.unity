@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2701,11 +2701,23 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5424245377218819254, guid: e4b952c6bbfbe0c4a920384909ca4027,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: a6ba149287fda2f47b44b7c7e435f066,
+        type: 2}
     - target: {fileID: 5424245377218819255, guid: e4b952c6bbfbe0c4a920384909ca4027,
         type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5424245377218819255, guid: e4b952c6bbfbe0c4a920384909ca4027,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3536407659779993718, guid: 14ac5f5bdf7abf740bfdc294001a00c2,
+        type: 3}
     - target: {fileID: 5424245377218819256, guid: e4b952c6bbfbe0c4a920384909ca4027,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13647,12 +13659,12 @@ PrefabInstance:
     - target: {fileID: 6290875679880690000, guid: 763585f755971914b8090489ff2e3643,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.256601
+      value: 10.87
       objectReference: {fileID: 0}
     - target: {fileID: 6290875679880690000, guid: 763585f755971914b8090489ff2e3643,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.8383255
+      value: 18.04
       objectReference: {fileID: 0}
     - target: {fileID: 6290875679880690000, guid: 763585f755971914b8090489ff2e3643,
         type: 3}
@@ -30967,6 +30979,12 @@ PrefabInstance:
       propertyPath: attackRadius
       value: 0.6
       objectReference: {fileID: 0}
+    - target: {fileID: 5424245377218819259, guid: e4b952c6bbfbe0c4a920384909ca4027,
+        type: 3}
+      propertyPath: thisLoot
+      value: 
+      objectReference: {fileID: 11400000, guid: aa23df9d4896fec4390b0938ee9ceb5c,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4b952c6bbfbe0c4a920384909ca4027, type: 3}
 --- !u!4 &1339025870 stripped
@@ -59946,11 +59964,23 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5424245377218819254, guid: e4b952c6bbfbe0c4a920384909ca4027,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: a6ba149287fda2f47b44b7c7e435f066,
+        type: 2}
     - target: {fileID: 5424245377218819255, guid: e4b952c6bbfbe0c4a920384909ca4027,
         type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5424245377218819255, guid: e4b952c6bbfbe0c4a920384909ca4027,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3536407659779993718, guid: 14ac5f5bdf7abf740bfdc294001a00c2,
+        type: 3}
     - target: {fileID: 5424245377218819256, guid: e4b952c6bbfbe0c4a920384909ca4027,
         type: 3}
       propertyPath: m_LocalPosition.x
